@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "badd",
+  "version": "${version}",
+  "name": "Boom++",
+  "description": "",
+  "authors": [
+    "KSmc_brigade"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "cn.ksmcbrigade.badd.Boom"
+    ]
+  },
+  "mixins": [
+    "badd.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
